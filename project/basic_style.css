@@ -56,6 +56,11 @@ container{
 
 .container .squares:nth-child(-n+4) :hover {
     background-image: url("../images/icons/smileyface1.png");
+    transform:soale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinte;
+    animation-timing-function:cubic-bezier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1) :hover {
@@ -72,4 +77,14 @@ container{
 
 .squares:nth-child(4) :hover {
     background:#77b800;
+}
+
+# keyframes race {
+    0%, 100% (
+        transform: translate(0px);
+        backgournd-image:url("../images/icon/smileyface1.png")
+    )
+    50%
+        transform: translatey(330px);
+
 }
