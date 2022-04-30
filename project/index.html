@@ -1,184 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Space Station </title>
-		<link rel="stylesheet" href="./css/shared.css">
-		<link rel="stylesheet" href="./css/animations.css">
-	</head>
-	<body>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Alexa Lac</title>
+        <link rel="stylesheet" type="text/css" href="portfolio/css/portfolio.css">
+    </head>
 
-		<!--Nav-->
-		<div class="wrap">
-			<div class="menu-container">
-				<ul class= "menu">
-					<a href="#Home"><li>HOME</li></a>
-					<a href="#Gallery"><li>GALLERY</li></a>
-					<a href="#Contact"><li>CONTACT</li></a>
-				</ul>
-			</div>			
-		</div>
-		<!--End Nav-->
-		 <!--Home-->
-		 <div id="Home">
-				<div class="container">
-					<div class= "text-center">
-						<span class="head-main">Space Station</span>
-					</div>
-				</div>
-		 </div>
-		 <!--End Home-->
-		<!--Gallery-->
-		<section id="Gallery">
-			<div class="container">
-				<h1>Gallery</h1>
-				<div class="flex-container">
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
 
-					<!---Photo_Container_1-->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/Thumb/thumbnail_1.png" alt="space">
-							<div class="photo-overlay">
-								<h3>Click to Enlarge</h3>
-								<p>We have several space launches departing daily book your flight today!</p>
-							</div>
-						</div>
-					</div>
-					<!--End_Photo_Container-->
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
 
-					<!---Photo_Container_2-->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/Thumb/thumbnail_2.png" alt="space">
-								<div class="photo-overlay">
-									<h3>Click to Enlarge</h3>
-										<p>We have several space launches departing daily book your flight today!</p>
-								</div>
-						</div>
-					</div>
-					<!--End_Photo_Container-->
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/production.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
 
-					<!---Photo_Container_3-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_3.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text"> Alexa lac Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is alexa. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
 
-					<!---Photo_Container_4-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_4.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/images.jpg" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a UX/UI designer who loves to code! I enjoy traveling and learning new things. 
+                    <br>
+                    <br>I am a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
 
-					<!---Photo_Container_5-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_5.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
-					
-					<!---Photo_Container_6-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_6.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/sunelement/html-and-css-projects" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/sunelement/html-and-css-projects" target="_blank"><img src="images/github.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
 
-					<!---Photo_Container_7-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_7.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/Design.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
 
-					<!---Photo_Container_8-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_8.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
-
-					<!---Photo_Container_9-->
-					<div class="photo-container">
-							<div class="photo">
-								<img src="./images/Thumb/thumbnail_9.png" alt="space">
-									<div class="photo-overlay">
-										<h3>Click to Enlarge</h3>
-											<p>We have several space launches departing daily book your flight today!</p>
-									</div>
-							</div>
-						</div>
-					<!--End_Photo_Container-->
-				</div>
-			</div>
-		</section>
-		<!--End Gallery-->
-		<!--RSVP-->
-		<section id="Contact">
-			<div class="container">
-				<div class="heading-padding">
-					<h1 class="heading-padding">Reservations</h1>
-						<div class="reservation">
-							<h2><span>Your adventure is just around&nbsp;the&nbsp;moon</span>
-							<br>Reserve your flight today!
-							</h2>
-							<p class="rsvp-text">
-								Please provide us with your basic contact information
-							</p>
-							<div class="form-rsvp">
-								<form action="" method="post">
-									<input class="rsvp" type="text" value="" placeholder="First Name">
-									<input class="rsvp" type="text" value="" placeholder="Last Name">
-									<input class="rsvp" type="text" value="" placeholder="Email Address">
-									<input class="rsvp" type="text" value="" placeholder="Phone Number">
-									<div class="form-spacer">
-										<label class="terms"> Terms and Conditions </label>
-									</div>
-									<div class="submit">
-										<input type="submit" value="Submit">
-									</div>
-								</form>
-							</div>
-						</div>
-				</div>
-			</div>
-		</section>
-		<!--END RSVP-->
-		<!--FOOTER-->
-			<div id="footer">
-				www.spacestation.space &nbsp;|&nbsp; &copy;2016
-			</div>
-		<!--END FOOTER-->
-	</body>
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
 </html>
